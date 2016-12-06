@@ -11,6 +11,18 @@ Summary: Jupyter Notebook Tools for Sphinx
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/nbsphinx-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/nbsphinx-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/nbsphinx-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/nbsphinx-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/nbsphinx-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/nbsphinx-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/nbsphinx/badges/version.svg)](https://anaconda.org/conda-forge/nbsphinx)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/nbsphinx/badges/downloads.svg)](https://anaconda.org/conda-forge/nbsphinx)
+
 Installing nbsphinx
 ===================
 
@@ -66,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/nbsphinx-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/nbsphinx-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/nbsphinx-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/nbsphinx-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/nbsphinx-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/nbsphinx-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/nbsphinx/badges/version.svg)](https://anaconda.org/conda-forge/nbsphinx)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/nbsphinx/badges/downloads.svg)](https://anaconda.org/conda-forge/nbsphinx)
 
 
 Updating nbsphinx-feedstock
