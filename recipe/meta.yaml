@@ -1,6 +1,6 @@
 {% set name = "nbsphinx" %}
-{% set version = "0.2.11" %}
-{% set md5 = "d816b63db78d32d82c532696b6cbbadc" %}
+{% set version = "0.2.13" %}
+{% set md5 = "4816354e6820c009e4c9d2bba6cf830c" %}
 
 package:
   name: {{ name|lower }}
