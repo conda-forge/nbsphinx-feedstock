@@ -1,6 +1,6 @@
 {% set name = "nbsphinx" %}
-{% set version = "0.2.13" %}
-{% set md5 = "4816354e6820c009e4c9d2bba6cf830c" %}
+{% set version = "0.2.14" %}
+{% set sha256 = "d6a35b62be88eadaec8b9e5d61916012b9e26b16f4895ab0bbc5ee1e99fbbee0" %}
 
 package:
   name: {{ name|lower }}
@@ -9,7 +9,7 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  md5: {{ md5 }}
+  sha256: {{ sha256 }}
 
 build:
   number: 0
@@ -42,3 +42,4 @@ about:
 extra:
   recipe-maintainers:
     - ericmjl
+    - kmuehlbauer
