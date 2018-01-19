@@ -1,5 +1,6 @@
 {% set name = "nbsphinx" %}
-{% set version = "0.2.18" %}
+{% set version = "0.3.1" %}
+{% set md5 = "7deb7951b423689d4f89d7714005c17d" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +9,7 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 7c31c9185134b4ce8c347220a9720e5dc59a20584ce993c7c9aa25401b3a1f44
+  md5: {{ md5 }}
 
 build:
   number: 0
