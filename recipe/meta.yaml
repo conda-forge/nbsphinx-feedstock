@@ -1,6 +1,6 @@
 {% set name = "nbsphinx" %}
-{% set version = "0.3.2" %}
-{% set sha256 = "662530728b66bed43ddd82d51ac2ef4ad01d04baf63b4e2fc5c360f6fc0bdf63" %}
+{% set version = "0.3.3" %}
+{% set sha256 = "5635f04cdb74376f33423813cdaabe5208ef5e6462031843fef7584b821a54a1" %}
 
 package:
   name: {{ name|lower }}
@@ -44,3 +44,4 @@ extra:
   recipe-maintainers:
     - ericmjl
     - kmuehlbauer
+    - SylvainCorlay
