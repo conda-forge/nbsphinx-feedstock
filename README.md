@@ -14,12 +14,15 @@ Summary: Jupyter Notebook Tools for Sphinx
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/nbsphinx-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/nbsphinx-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/nbsphinx-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/nbsphinx-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/nbsphinx/badges/version.svg)](https://anaconda.org/conda-forge/nbsphinx)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/nbsphinx/badges/downloads.svg)](https://anaconda.org/conda-forge/nbsphinx)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-nbsphinx-green.svg)](https://anaconda.org/conda-forge/nbsphinx) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/nbsphinx.svg)](https://anaconda.org/conda-forge/nbsphinx) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/nbsphinx.svg)](https://anaconda.org/conda-forge/nbsphinx) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/nbsphinx.svg)](https://anaconda.org/conda-forge/nbsphinx) |
 
 Installing nbsphinx
 ===================
