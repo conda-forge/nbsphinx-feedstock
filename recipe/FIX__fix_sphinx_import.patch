@@ -1,0 +1,15 @@
+Index: src/nbsphinx.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/nbsphinx.py	(revision d28ce814161fd1f82d90ee99bd5a225964fe6f41)
++++ src/nbsphinx.py	(revision ccde6b92b9b7f4be941e1b35af846f54655f5958)
+@@ -44,6 +44,7 @@
+ import nbformat
+ import sphinx
+ import sphinx.errors
++import sphinx.transforms.post_transforms.images
+ import traitlets
+ 
+ _ipynbversion = 4
