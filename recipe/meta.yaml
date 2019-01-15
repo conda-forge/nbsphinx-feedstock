@@ -18,12 +18,12 @@ build:
 
 requirements:
   build:
-    - python >=3.5
+    - python
     - setuptools
     - pip
 
   run:
-    - python >=3.5
+    - python
     - docutils
     - jinja2
     - nbconvert
