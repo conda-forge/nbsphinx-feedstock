@@ -1,6 +1,6 @@
 {% set name = "nbsphinx" %}
-{% set version = "0.4.1" %}
-{% set sha256 = "f79bcb74b8ff700fa936eca76dd57f3aed8f3d5e3cbb5c441f546a647ada01b8" %}
+{% set version = "0.4.2" %}
+{% set sha256 = "b794219e465b3aab500b800884ff40fd152bb19d8b6f87580de1f3a07170aef8" %}
 
 package:
   name: {{ name|lower }}
@@ -12,18 +12,18 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
   build:
-    - python >=3.5
+    - python
     - setuptools
     - pip
 
   run:
-    - python >=3.5
+    - python
     - docutils
     - jinja2
     - nbconvert
