@@ -1,6 +1,6 @@
 {% set name = "nbsphinx" %}
-{% set version = "0.5.1" %}
-{% set sha256 = "1c3e1b5c5b4c96c06c2e428536b6a7860ee23bc290dc4e6e73ee6ed5076a004e" %}
+{% set version = "0.6.0" %}
+{% set sha256 = "cf44b8675596fea7320f460f676fee26c8b3ee91140f80e41a77a46272af0081" %}
 
 package:
   name: {{ name|lower }}
@@ -37,7 +37,7 @@ test:
 about:
   home: http://nbsphinx.rtfd.org/
   license: MIT
-  summary: 'Jupyter Notebook Tools for Sphinx'
+  summary: Jupyter Notebook Tools for Sphinx
   license_family: MIT
   license_file: LICENSE
 
