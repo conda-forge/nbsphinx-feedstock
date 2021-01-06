@@ -29,6 +29,7 @@ requirements:
     - nbconvert
     - nbformat
     - sphinx
+    - traitlets
 
 test:
   imports:
