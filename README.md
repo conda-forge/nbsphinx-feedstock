@@ -5,11 +5,9 @@ Home: http://nbsphinx.rtfd.org/
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/nbsphinx-feedstock/blob/master/LICENSE.txt)
 
 Summary: Jupyter Notebook Tools for Sphinx
-
-
 
 Current build status
 ====================

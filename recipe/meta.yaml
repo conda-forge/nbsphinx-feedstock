@@ -1,6 +1,6 @@
 {% set name = "nbsphinx" %}
-{% set version = "0.7.1" %}
-{% set sha256 = "f50bd750e4ee3a4e4c3cf571155eab413dc87d581c1380021e7623205b5fa648" %}
+{% set version = "0.8.0" %}
+{% set sha256 = "369c16fe93af14c878d61fb3e81d838196fb35b27deade2cd7b95efe1fe56ea0" %}
 
 package:
   name: {{ name|lower }}
@@ -29,6 +29,7 @@ requirements:
     - nbconvert
     - nbformat
     - sphinx
+    - traitlets
 
 test:
   imports:
