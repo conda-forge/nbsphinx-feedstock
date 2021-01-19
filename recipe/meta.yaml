@@ -1,6 +1,6 @@
 {% set name = "nbsphinx" %}
-{% set version = "0.8.0" %}
-{% set sha256 = "369c16fe93af14c878d61fb3e81d838196fb35b27deade2cd7b95efe1fe56ea0" %}
+{% set version = "0.8.1" %}
+{% set sha256 = "24d59aa3a1077ba58d9769c64c38fb05b761a1af21c1ac15f6393500cd008ea6" %}
 
 package:
   name: {{ name|lower }}
@@ -17,7 +17,7 @@ build:
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
-  build:
+  host:
     - python
     - setuptools
     - pip
