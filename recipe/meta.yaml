@@ -1,6 +1,6 @@
 {% set name = "nbsphinx" %}
-{% set version = "0.8.1" %}
-{% set sha256 = "24d59aa3a1077ba58d9769c64c38fb05b761a1af21c1ac15f6393500cd008ea6" %}
+{% set version = "0.8.2" %}
+{% set sha256 = "53352237e2363079f6e38637a8ce90b47e720c8e2eb133a6a6f66fc13ff494cb" %}
 
 package:
   name: {{ name|lower }}
@@ -18,12 +18,12 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - setuptools
     - pip
 
   run:
-    - python
+    - python >=3.6
     - docutils
     - jinja2
     - nbconvert
