@@ -25,7 +25,7 @@ requirements:
   run:
     - python >=3.6
     - docutils
-    - jinja2
+    - jinja2 >=2.11,<3
     - nbconvert
     - nbformat
     - sphinx
