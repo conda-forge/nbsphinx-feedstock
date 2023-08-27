@@ -1,6 +1,6 @@
 {% set name = "nbsphinx" %}
-{% set version = "0.9.2" %}
-{% set sha256 = "540db7f4066347f23d0650c4ae8e7d85334c69adf749e030af64c12e996ff88e" %}
+{% set version = "0.9.3" %}
+{% set sha256 = "ec339c8691b688f8676104a367a4b8cf3ea01fd089dc28d24dec22d563b11562" %}
 
 package:
   name: {{ name|lower }}
