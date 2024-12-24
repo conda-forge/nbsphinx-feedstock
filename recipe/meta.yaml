@@ -1,6 +1,6 @@
 {% set name = "nbsphinx" %}
-{% set version = "0.9.5" %}
-{% set sha256 = "736916e7b0dab28fc904f4a9ae3b53a9a50c29fccc6329c052fcc7485abcf2b7" %}
+{% set version = "0.9.6" %}
+{% set sha256 = "c2b28a2d702f1159a95b843831798e86e60a17fc647b9bff9ba1585355de54e3" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
