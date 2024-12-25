@@ -12,18 +12,18 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
-    - python >=3.6
+    - python {{ python_min }}
     - setuptools
     - pip
 
   run:
-    - python >=3.6
+    - python >={{ python_min }}
     - docutils
     - jinja2
     - nbconvert
@@ -32,6 +32,8 @@ requirements:
     - traitlets
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - nbsphinx
 
